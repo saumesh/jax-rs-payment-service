@@ -1,4 +1,6 @@
 # Payments (Money transfer) Service
+Sample payment service to build REST APIs using JAX-RS
+
 
 ## Technologies / Frameworks
 * JAX - RS
