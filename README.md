@@ -2,14 +2,14 @@
 Sample service to build REST APIs using JAX-RS. Implemented simple payment service to transfer amount from one account to another account.
 
 ## Code description
-* Application.java: Starts Jetty service and initializes app
-* config/AppBinder.java: Configures implementations for dependency injection
-* controller/PaymentController.java: Defines interface to transfer amount from one account to another
-* controller/BasicPaymentController.java: Basic (simple) implementation of PaymentController
-* domain: Defines models/domains used to represent Account & InsufficientAmountException
-* persistence: Defines interfaces to perform CRUD operations on Accounts store/database
-* persistenance/memory: Defines simple InMemory Accounts store and its repository (DAO)
-* service: Defines Accounts & Payments services/REST endpoints & their DTO
+* **Application.java:** Starts Jetty service and initializes app
+* **config/AppBinder.java:** Configures implementations for dependency injection
+* **controller/PaymentController.java:** Defines interface to transfer amount from one account to another
+* **controller/BasicPaymentController.java:** Basic (simple) implementation of PaymentController
+* **domain:** Defines models/domains used to represent Account & InsufficientAmountException
+* **persistence:** Defines interfaces to perform CRUD operations on Accounts store/database
+* **persistenance/memory:** Defines simple InMemory Accounts store and its repository (DAO)
+* **service:** Defines Accounts & Payments services/REST endpoints & their DTO
 
 
 ## Technologies / Frameworks
