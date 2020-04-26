@@ -1,4 +1,4 @@
-# Payments (Money transfer) Service
+# JAX-RS Service : Payments (Money transfer)
 Sample service to build REST APIs using JAX-RS. Implemented simple payment service to transfer amount from one account to another account.
 
 ## Code description
